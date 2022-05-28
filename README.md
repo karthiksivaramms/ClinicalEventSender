@@ -1,0 +1,2 @@
+# ClinicalEventSender
+Avro Sender .NET
