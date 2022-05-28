@@ -1,0 +1,867 @@
+﻿{
+  "bomTriggerCode": "RETAILRX",
+  "bomTriggerFreeText": null,
+  "bomExecutionDateTime": 1646064179000,
+  "currentDispense": {
+    "dispense": {
+      "sourceSystemName": "ICPLUS",
+      "dispenseCode": "12345abcd",
+      "actualProductPackCode": "5423",
+      "createDateTime": 1646064179000,
+      "dataEnteredBy": "null",
+      "immunizationCurrentDose": null,
+      "immunizationToBeAdministered": true,
+      "immunizationShareWithPCP": "null",
+      "immunizationShareWithPrescriberCode": "null",
+      "daysSupply": 30,
+      "deletedComment": {
+        "value": "null",
+        "keyId": "null"
+      },
+      "deletedDateTime": null,
+      "deletedReason": "null",
+      "dispenseNumber": 1,
+      "dispenseVersion": 1,
+      "prescriberVersion": null,
+      "patientVersion": null,
+      "dispenseCompletionStatus": "SOLD",
+      "locationCode": "59353",
+      "intakeChannel": "null",
+      "payCode": null,
+      "paymentCashOnly": true,
+      "pharmacistOfRecord": "null",
+      "customPayment": null,
+      "plans": [
+        {
+          "planCode": null,
+          "patientPlanType": "null",
+          "planType": "null",
+          "generalRecipientNumber": {
+            "value": null,
+            "keyId": "1"
+          },
+          "dateOfInjury": null,
+          "thirdPartyAuthorization": {
+            "diagnosticCodes": [
+              {
+                "diagnosticCode": "null",
+                "diagnosticCodeType": "null"
+              }
+            ]
+          }
+        }
+      ],
+      "billingPlans": [
+        {
+          "planCode": "null",
+          "planType": "null",
+          "billToCOBIndicator": null,
+          "binNbr": "null",
+          "prcsCtrlNbr": "null",
+          "planGroupNbr": "null"
+        },
+        {
+          "planCode": "null",
+          "planType": "null",
+          "billToCOBIndicator": null,
+          "binNbr": "null",
+          "prcsCtrlNbr": "null",
+          "planGroupNbr": "null"
+        }
+      ],
+      "quantityDispensed": 100,
+      "rxNumber": {
+        "value": "123",
+        "keyId": "1"
+      },
+      "soldDateTime": 1646060852000,
+      "updateDatetime": null,
+      "updatedBy": "null",
+      "updatedFromLocation": "null",
+      "promiseTime": 1648134179000,
+      "promiseTimeType": "null",
+      "emergencySupplyDispense": null,
+      "partialFillDispense": null,
+      "associatedPartialFillDispenseCode": "null",
+      "associatedEmergencySupplyDispenseCode": "null",
+      "ruleDrivenExpirationLimit": null,
+      "shortFillInd": "null",
+      "satrWOCorrelationCode": "null",
+      "satrRxCount": null,
+      "product": {
+        "gpi": "58160060000320",
+        "gtin": "303787002930",
+        "drugId": "664741",
+        "billingNdc": "00378700293",
+        "cdsNdc": "00378700293",
+        "ndc": "00378700293",
+        "maintenanceCode": "MAINTENANCE",
+        "brandGenericIndicator": "GENERIC",
+        "federalDeaClass": "NA",
+        "statesDeaClassList": null,
+        "defaultDaysSupply": null,
+        "daysSinceLastDose": null,
+        "mylarDescription": "PAROXETINE 20MG     MYLAN",
+        "manufacturerName": "MYLAN",
+        "manufacturerNameAbbr": "MYLAN",
+        "productFullName": "PAROXETINE 20MG TABLETS",
+        "productName": "PAROXETINE 20MG TABLETS",
+        "eligibleFor90Day": true,
+        "vaccineIndicator": false
+      },
+      "location": {
+        "locationState": "OPEN",
+        "locationClassificationType": "WIRS",
+        "relocatedFromStoreNumber": "null",
+        "relocatedToLocationOpenDate": null,
+        "closeDate": null
+      }
+    },
+    "prescriptionHeader": {
+      "prescriptionCode": "59353",
+      "exceptionCodeReauth": "null",
+      "emergencySupply": {
+        "status": "null",
+        "reauthCode": "null",
+        "rejectionReason": "null",
+        "statusUpdatedBy": "null",
+        "statusUpdateDatetime": null
+      },
+      "prescriptionVersion": 1,
+      "rxClosedDeletedComment": {
+        "value": null,
+        "keyId": "1"
+      },
+      "rxClosedDeletedDatetime": null,
+      "rxClosedDeletedPrimaryReason": null,
+      "rxClosedDeletedSecondaryReason": "null",
+      "rxStatus": "ACTIVE",
+      "specDirection": {
+        "value": "null",
+        "keyId": "null"
+      },
+      "specDispenseAsWritten": false,
+      "expirationDate": 19439,
+      "rxDocumentCode": "null",
+      "locationCode": "59353",
+      "specNumberRefill": 19,
+      "intakeChannel": null,
+      "originalEnteredDateTime": 1646064179000,
+      "specOriginalQuantityPrescribed": 100,
+      "specPatientCode": "ef485795-c0c1-5c3c-92d9-6338f12d348d",
+      "specPrescribedProduct": "5423",
+      "specPrescriberCode": null,
+      "specPrescriberLegacyCode": "null",
+      "specPrescriberLocationLegacyCode": "null",
+      "specPrescriberDeaNumber": null,
+      "specPrescriberLocationCode": null,
+      "substitutePreference": "true",
+      "totalQuantityPrescribed": 2000,
+      "specUnlimitedFill": false,
+      "specWrittenDate": 19074,
+      "specDoNotDispenseBefore": null,
+      "autoFill": null,
+      "autoFillUpdatedDate": null,
+      "ninetyDayRxPreference": "null",
+      "ninetyDayRxPreferenceDate": null,
+      "refillDueDate": null,
+      "refillExpirationDate": null,
+      "qtyRemaining": null,
+      "refillsRemaining": null,
+      "satrConsentInd": "null",
+      "satrEnrollInd": "null",
+      "satrConsentDttm": null,
+      "satrWithdrawDttm": null,
+      "prescriber": {
+        "npiNumber": null,
+        "prescriberCode": null,
+        "prescriberExternalCode": null,
+        "prescriberVersion": null,
+        "lexisNexisPrescriberId": null,
+        "prescriberLocationExternalCode": null,
+        "lexisNexisLocationId": null,
+        "lexisNexisGeoLocationId": null,
+        "firstName": null,
+        "middleName": null,
+        "lastName": null,
+        "suffix": null,
+        "addressLine1": null,
+        "addressLine2": null,
+        "city": null,
+        "stateCode": null,
+        "postalCode": null,
+        "countryCode": null,
+        "firmName": "null",
+        "phoneContact": {
+          "phoneNumber": {
+            "countryCode": "null",
+            "areaCode": "null",
+            "subscriberNumber": "null"
+          },
+          "type": "null"
+        },
+        "phoneContactOverride": {
+          "phoneContact": {
+            "phoneNumber": {
+              "countryCode": "null",
+              "areaCode": "null",
+              "subscriberNumber": "null"
+            },
+            "type": "null"
+          },
+          "updatedBy": "null",
+          "updatedLocation": "null",
+          "updateDateTime": null
+        }
+      },
+      "transferredFromCompetitor": {
+        "competitorLocation": {
+          "locationIdentifier": "null",
+          "locationName": "null",
+          "locationPhoneNumber": "null",
+          "locationFaxNumber": "null",
+          "locationDEANumber": "null",
+          "locationNPINumber": "null"
+        },
+        "competitorRxNumber": {
+          "value": "null",
+          "keyId": "null"
+        },
+        "competitorPharmacistName": "null",
+        "transferredFromWalgreens": null,
+        "originalRefills": null,
+        "lastFillDate": null,
+        "firstFillDate": null
+      },
+      "transferredToCompetitor": {
+        "competitorLocation": {
+          "locationIdentifier": "null",
+          "locationName": "null",
+          "locationPhoneNumber": "null",
+          "locationFaxNumber": "null",
+          "locationDEANumber": "null",
+          "locationNPINumber": "null"
+        },
+        "competitorRxNumber": {
+          "value": "null",
+          "keyId": "null"
+        },
+        "competitorPharmacistName": "null",
+        "sendingStoreRph": "null",
+        "transferredBy": "null",
+        "methodOfTransfer": "null",
+        "transferredToWalgreens": null,
+        "quantityTransferred": null
+      },
+      "specSupervisingPrescriberCode": "null",
+      "specSupervisingPrescriberVersion": null,
+      "specSupervisingPrescriberLocationCode": "null",
+      "specSupervisingPrescriberDEANumber": "null",
+      "specFollowupPrescriberCode": "null",
+      "specFollowupPrescriberVersion": null,
+      "specFollowupPrescriberLocationCode": "null",
+      "prohibitRenewalRequest": null,
+      "erxCode": "null",
+      "bridgeIndicator": null,
+      "assetKey": "null",
+      "cancelErxCode": "null",
+      "immunization": {
+        "immunizationRxSource": "null",
+        "offsiteVaccinationClinic": null,
+        "immunizationRequiredDoses": null
+      },
+      "externalReferencesData": {
+        "externalRxNumber": {
+          "value": "null",
+          "keyId": "null"
+        },
+        "externalLocationCode": "null",
+        "everDispensed": null,
+        "originalAssetKey": "null",
+        "originallyEnteredBy": "null",
+        "originallyEnteredDatetime": null,
+        "originallyEnteredLocationCode": "null",
+        "intakenBy": "null",
+        "intakenDatetime": null,
+        "intakenLocationCode": "null"
+      }
+    },
+    "patient": null,
+    "cpm": null,
+    "requestId": "null",
+    "requestedByService": "null"
+  },
+  "medicationHistory": [
+    {
+      "dispense": {
+        "sourceSystemName": "ICPLUS",
+        "dispenseCode": "12345abcd",
+        "actualProductPackCode": "5423",
+        "createDateTime": 1646064179000,
+        "dataEnteredBy": "null",
+        "immunizationCurrentDose": null,
+        "immunizationToBeAdministered": true,
+        "immunizationShareWithPCP": "null",
+        "immunizationShareWithPrescriberCode": "null",
+        "daysSupply": 30,
+        "deletedComment": {
+          "value": "null",
+          "keyId": "null"
+        },
+        "deletedDateTime": null,
+        "deletedReason": "null",
+        "dispenseNumber": 1,
+        "dispenseVersion": 1,
+        "prescriberVersion": null,
+        "patientVersion": null,
+        "dispenseCompletionStatus": "SOLD",
+        "locationCode": "59353",
+        "intakeChannel": "null",
+        "payCode": null,
+        "paymentCashOnly": true,
+        "pharmacistOfRecord": "null",
+        "customPayment": null,
+        "plans": [
+          {
+            "planCode": null,
+            "patientPlanType": "null",
+            "planType": "null",
+            "generalRecipientNumber": {
+              "value": null,
+              "keyId": "1"
+            },
+            "dateOfInjury": null,
+            "thirdPartyAuthorization": {
+              "diagnosticCodes": [
+                {
+                  "diagnosticCode": "null",
+                  "diagnosticCodeType": "null"
+                }
+              ]
+            }
+          }
+        ],
+        "billingPlans": [
+          {
+            "planCode": "null",
+            "planType": "null",
+            "billToCOBIndicator": null,
+            "binNbr": "null",
+            "prcsCtrlNbr": "null",
+            "planGroupNbr": "null"
+          },
+          {
+            "planCode": "null",
+            "planType": "null",
+            "billToCOBIndicator": null,
+            "binNbr": "null",
+            "prcsCtrlNbr": "null",
+            "planGroupNbr": "null"
+          }
+        ],
+        "quantityDispensed": 100,
+        "rxNumber": {
+          "value": "123",
+          "keyId": "1"
+        },
+        "soldDateTime": 1646060852000,
+        "updateDatetime": null,
+        "updatedBy": "null",
+        "updatedFromLocation": "null",
+        "promiseTime": 1648134179000,
+        "promiseTimeType": "null",
+        "emergencySupplyDispense": null,
+        "partialFillDispense": null,
+        "associatedPartialFillDispenseCode": "null",
+        "associatedEmergencySupplyDispenseCode": "null",
+        "ruleDrivenExpirationLimit": null,
+        "shortFillInd": "null",
+        "satrWOCorrelationCode": "null",
+        "satrRxCount": null,
+        "product": {
+          "gpi": "58160060000320",
+          "gtin": "303787002930",
+          "drugId": "664741",
+          "billingNdc": "00378700293",
+          "cdsNdc": "00378700293",
+          "ndc": "00378700293",
+          "maintenanceCode": "MAINTENANCE",
+          "brandGenericIndicator": "GENERIC",
+          "federalDeaClass": "NA",
+          "statesDeaClassList": null,
+          "defaultDaysSupply": null,
+          "daysSinceLastDose": null,
+          "mylarDescription": "PAROXETINE 20MG     MYLAN",
+          "manufacturerName": "MYLAN",
+          "manufacturerNameAbbr": "MYLAN",
+          "productFullName": "PAROXETINE 20MG TABLETS",
+          "productName": "PAROXETINE 20MG TABLETS",
+          "eligibleFor90Day": true,
+          "vaccineIndicator": false
+        },
+        "location": {
+          "locationState": "OPEN",
+          "locationClassificationType": "WIRS",
+          "relocatedFromStoreNumber": "null",
+          "relocatedToLocationOpenDate": null,
+          "closeDate": null
+        }
+      },
+      "prescriptionHeader": {
+        "prescriptionCode": "59353",
+        "exceptionCodeReauth": "null",
+        "emergencySupply": {
+          "status": "null",
+          "reauthCode": "null",
+          "rejectionReason": "null",
+          "statusUpdatedBy": "null",
+          "statusUpdateDatetime": null
+        },
+        "prescriptionVersion": 1,
+        "rxClosedDeletedComment": {
+          "value": null,
+          "keyId": "1"
+        },
+        "rxClosedDeletedDatetime": null,
+        "rxClosedDeletedPrimaryReason": null,
+        "rxClosedDeletedSecondaryReason": "null",
+        "rxStatus": "ACTIVE",
+        "specDirection": {
+          "value": "null",
+          "keyId": "null"
+        },
+        "specDispenseAsWritten": false,
+        "expirationDate": 19439,
+        "rxDocumentCode": "null",
+        "locationCode": "59353",
+        "specNumberRefill": 19,
+        "intakeChannel": null,
+        "originalEnteredDateTime": 1646064179000,
+        "specOriginalQuantityPrescribed": 100,
+        "specPatientCode": "ef485795-c0c1-5c3c-92d9-6338f12d348d",
+        "specPrescribedProduct": "5423",
+        "specPrescriberCode": null,
+        "specPrescriberLegacyCode": "null",
+        "specPrescriberLocationLegacyCode": "null",
+        "specPrescriberDeaNumber": null,
+        "specPrescriberLocationCode": null,
+        "substitutePreference": "true",
+        "totalQuantityPrescribed": 2000,
+        "specUnlimitedFill": false,
+        "specWrittenDate": 19074,
+        "specDoNotDispenseBefore": null,
+        "autoFill": null,
+        "autoFillUpdatedDate": null,
+        "ninetyDayRxPreference": "null",
+        "ninetyDayRxPreferenceDate": null,
+        "refillDueDate": null,
+        "refillExpirationDate": null,
+        "qtyRemaining": null,
+        "refillsRemaining": null,
+        "satrConsentInd": "null",
+        "satrEnrollInd": "null",
+        "satrConsentDttm": null,
+        "satrWithdrawDttm": null,
+        "prescriber": {
+          "npiNumber": null,
+          "prescriberCode": null,
+          "prescriberExternalCode": null,
+          "prescriberVersion": null,
+          "lexisNexisPrescriberId": null,
+          "prescriberLocationExternalCode": null,
+          "lexisNexisLocationId": null,
+          "lexisNexisGeoLocationId": null,
+          "firstName": null,
+          "middleName": null,
+          "lastName": null,
+          "suffix": null,
+          "addressLine1": null,
+          "addressLine2": null,
+          "city": null,
+          "stateCode": null,
+          "postalCode": null,
+          "countryCode": null,
+          "firmName": "null",
+          "phoneContact": {
+            "phoneNumber": {
+              "countryCode": "null",
+              "areaCode": "null",
+              "subscriberNumber": "null"
+            },
+            "type": "null"
+          },
+          "phoneContactOverride": {
+            "phoneContact": {
+              "phoneNumber": {
+                "countryCode": "null",
+                "areaCode": "null",
+                "subscriberNumber": "null"
+              },
+              "type": "null"
+            },
+            "updatedBy": "null",
+            "updatedLocation": "null",
+            "updateDateTime": null
+          }
+        },
+        "transferredFromCompetitor": {
+          "competitorLocation": {
+            "locationIdentifier": "null",
+            "locationName": "null",
+            "locationPhoneNumber": "null",
+            "locationFaxNumber": "null",
+            "locationDEANumber": "null",
+            "locationNPINumber": "null"
+          },
+          "competitorRxNumber": {
+            "value": "null",
+            "keyId": "null"
+          },
+          "competitorPharmacistName": "null",
+          "transferredFromWalgreens": null,
+          "originalRefills": null,
+          "lastFillDate": null,
+          "firstFillDate": null
+        },
+        "transferredToCompetitor": {
+          "competitorLocation": {
+            "locationIdentifier": "null",
+            "locationName": "null",
+            "locationPhoneNumber": "null",
+            "locationFaxNumber": "null",
+            "locationDEANumber": "null",
+            "locationNPINumber": "null"
+          },
+          "competitorRxNumber": {
+            "value": "null",
+            "keyId": "null"
+          },
+          "competitorPharmacistName": "null",
+          "sendingStoreRph": "null",
+          "transferredBy": "null",
+          "methodOfTransfer": "null",
+          "transferredToWalgreens": null,
+          "quantityTransferred": null
+        },
+        "specSupervisingPrescriberCode": "null",
+        "specSupervisingPrescriberVersion": null,
+        "specSupervisingPrescriberLocationCode": "null",
+        "specSupervisingPrescriberDEANumber": "null",
+        "specFollowupPrescriberCode": "null",
+        "specFollowupPrescriberVersion": null,
+        "specFollowupPrescriberLocationCode": "null",
+        "prohibitRenewalRequest": null,
+        "erxCode": "null",
+        "bridgeIndicator": null,
+        "assetKey": "null",
+        "cancelErxCode": "null",
+        "immunization": {
+          "immunizationRxSource": "null",
+          "offsiteVaccinationClinic": null,
+          "immunizationRequiredDoses": null
+        },
+        "externalReferencesData": {
+          "externalRxNumber": {
+            "value": "null",
+            "keyId": "null"
+          },
+          "externalLocationCode": "null",
+          "everDispensed": null,
+          "originalAssetKey": "null",
+          "originallyEnteredBy": "null",
+          "originallyEnteredDatetime": null,
+          "originallyEnteredLocationCode": "null",
+          "intakenBy": "null",
+          "intakenDatetime": null,
+          "intakenLocationCode": "null"
+        }
+      }
+    },
+    {
+      "dispense": {
+        "sourceSystemName": "ICPLUS",
+        "dispenseCode": "12345abcd",
+        "actualProductPackCode": "5423",
+        "createDateTime": 1648051317000,
+        "dataEnteredBy": "null",
+        "immunizationCurrentDose": null,
+        "immunizationToBeAdministered": true,
+        "immunizationShareWithPCP": "null",
+        "immunizationShareWithPrescriberCode": "null",
+        "daysSupply": 30,
+        "deletedComment": {
+          "value": "null",
+          "keyId": "null"
+        },
+        "deletedDateTime": null,
+        "deletedReason": "null",
+        "dispenseNumber": 1,
+        "dispenseVersion": 1,
+        "prescriberVersion": null,
+        "patientVersion": null,
+        "dispenseCompletionStatus": "SOLD",
+        "locationCode": "59353",
+        "intakeChannel": "null",
+        "payCode": null,
+        "paymentCashOnly": true,
+        "pharmacistOfRecord": "null",
+        "customPayment": null,
+        "plans": [
+          {
+            "planCode": null,
+            "patientPlanType": "null",
+            "planType": "null",
+            "generalRecipientNumber": {
+              "value": null,
+              "keyId": "1"
+            },
+            "dateOfInjury": null,
+            "thirdPartyAuthorization": {
+              "diagnosticCodes": [
+                {
+                  "diagnosticCode": "null",
+                  "diagnosticCodeType": "null"
+                }
+              ]
+            }
+          }
+        ],
+        "billingPlans": [
+          {
+            "planCode": "null",
+            "planType": "null",
+            "billToCOBIndicator": null,
+            "binNbr": "null",
+            "prcsCtrlNbr": "null",
+            "planGroupNbr": "null"
+          },
+          {
+            "planCode": "null",
+            "planType": "null",
+            "billToCOBIndicator": null,
+            "binNbr": "null",
+            "prcsCtrlNbr": "null",
+            "planGroupNbr": "null"
+          }
+        ],
+        "quantityDispensed": 100,
+        "rxNumber": {
+          "value": "123",
+          "keyId": "1"
+        },
+        "soldDateTime": 1648048059000,
+        "updateDatetime": null,
+        "updatedBy": "null",
+        "updatedFromLocation": "null",
+        "promiseTime": 1648134117000,
+        "promiseTimeType": "null",
+        "emergencySupplyDispense": null,
+        "partialFillDispense": null,
+        "associatedPartialFillDispenseCode": "null",
+        "associatedEmergencySupplyDispenseCode": "null",
+        "ruleDrivenExpirationLimit": null,
+        "shortFillInd": "null",
+        "satrWOCorrelationCode": "null",
+        "satrRxCount": null,
+        "product": {
+          "gpi": "58160060000320",
+          "gtin": "303787002930",
+          "drugId": "664741",
+          "billingNdc": "00378700293",
+          "cdsNdc": "00378700293",
+          "ndc": "00378700293",
+          "maintenanceCode": "MAINTENANCE",
+          "brandGenericIndicator": "GENERIC",
+          "federalDeaClass": "NA",
+          "statesDeaClassList": null,
+          "defaultDaysSupply": null,
+          "daysSinceLastDose": null,
+          "mylarDescription": "PAROXETINE 20MG     MYLAN",
+          "manufacturerName": "MYLAN",
+          "manufacturerNameAbbr": "MYLAN",
+          "productFullName": "PAROXETINE 20MG TABLETS",
+          "productName": "PAROXETINE 20MG TABLETS",
+          "eligibleFor90Day": true,
+          "vaccineIndicator": false
+        },
+        "location": {
+          "locationState": "OPEN",
+          "locationClassificationType": "WIRS",
+          "relocatedFromStoreNumber": "null",
+          "relocatedToLocationOpenDate": null,
+          "closeDate": null
+        }
+      },
+      "prescriptionHeader": {
+        "prescriptionCode": "59353",
+        "exceptionCodeReauth": "null",
+        "emergencySupply": {
+          "status": "null",
+          "reauthCode": "null",
+          "rejectionReason": "null",
+          "statusUpdatedBy": "null",
+          "statusUpdateDatetime": null
+        },
+        "prescriptionVersion": 1,
+        "rxClosedDeletedComment": {
+          "value": null,
+          "keyId": "1"
+        },
+        "rxClosedDeletedDatetime": null,
+        "rxClosedDeletedPrimaryReason": null,
+        "rxClosedDeletedSecondaryReason": "null",
+        "rxStatus": "ACTIVE",
+        "specDirection": {
+          "value": "null",
+          "keyId": "null"
+        },
+        "specDispenseAsWritten": false,
+        "expirationDate": 19439,
+        "rxDocumentCode": "null",
+        "locationCode": "59353",
+        "specNumberRefill": 19,
+        "intakeChannel": null,
+        "originalEnteredDateTime": 1648051317000,
+        "specOriginalQuantityPrescribed": 100,
+        "specPatientCode": "ef485795-c0c1-5c3c-92d9-6338f12d348d",
+        "specPrescribedProduct": "5423",
+        "specPrescriberCode": null,
+        "specPrescriberLegacyCode": "null",
+        "specPrescriberLocationLegacyCode": "null",
+        "specPrescriberDeaNumber": null,
+        "specPrescriberLocationCode": null,
+        "substitutePreference": "true",
+        "totalQuantityPrescribed": 2000,
+        "specUnlimitedFill": false,
+        "specWrittenDate": 19074,
+        "specDoNotDispenseBefore": null,
+        "autoFill": null,
+        "autoFillUpdatedDate": null,
+        "ninetyDayRxPreference": "null",
+        "ninetyDayRxPreferenceDate": null,
+        "refillDueDate": null,
+        "refillExpirationDate": null,
+        "qtyRemaining": null,
+        "refillsRemaining": null,
+        "satrConsentInd": "null",
+        "satrEnrollInd": "null",
+        "satrConsentDttm": null,
+        "satrWithdrawDttm": null,
+        "prescriber": {
+          "npiNumber": null,
+          "prescriberCode": null,
+          "prescriberExternalCode": null,
+          "prescriberVersion": null,
+          "lexisNexisPrescriberId": null,
+          "prescriberLocationExternalCode": null,
+          "lexisNexisLocationId": null,
+          "lexisNexisGeoLocationId": null,
+          "firstName": null,
+          "middleName": null,
+          "lastName": null,
+          "suffix": null,
+          "addressLine1": null,
+          "addressLine2": null,
+          "city": null,
+          "stateCode": null,
+          "postalCode": null,
+          "countryCode": null,
+          "firmName": "null",
+          "phoneContact": {
+            "phoneNumber": {
+              "countryCode": "null",
+              "areaCode": "null",
+              "subscriberNumber": "null"
+            },
+            "type": "null"
+          },
+          "phoneContactOverride": {
+            "phoneContact": {
+              "phoneNumber": {
+                "countryCode": "null",
+                "areaCode": "null",
+                "subscriberNumber": "null"
+              },
+              "type": "null"
+            },
+            "updatedBy": "null",
+            "updatedLocation": "null",
+            "updateDateTime": null
+          }
+        },
+        "transferredFromCompetitor": {
+          "competitorLocation": {
+            "locationIdentifier": "null",
+            "locationName": "null",
+            "locationPhoneNumber": "null",
+            "locationFaxNumber": "null",
+            "locationDEANumber": "null",
+            "locationNPINumber": "null"
+          },
+          "competitorRxNumber": {
+            "value": "null",
+            "keyId": "null"
+          },
+          "competitorPharmacistName": "null",
+          "transferredFromWalgreens": null,
+          "originalRefills": null,
+          "lastFillDate": null,
+          "firstFillDate": null
+        },
+        "transferredToCompetitor": {
+          "competitorLocation": {
+            "locationIdentifier": "null",
+            "locationName": "null",
+            "locationPhoneNumber": "null",
+            "locationFaxNumber": "null",
+            "locationDEANumber": "null",
+            "locationNPINumber": "null"
+          },
+          "competitorRxNumber": {
+            "value": "null",
+            "keyId": "null"
+          },
+          "competitorPharmacistName": "null",
+          "sendingStoreRph": "null",
+          "transferredBy": "null",
+          "methodOfTransfer": "null",
+          "transferredToWalgreens": null,
+          "quantityTransferred": null
+        },
+        "specSupervisingPrescriberCode": "null",
+        "specSupervisingPrescriberVersion": null,
+        "specSupervisingPrescriberLocationCode": "null",
+        "specSupervisingPrescriberDEANumber": "null",
+        "specFollowupPrescriberCode": "null",
+        "specFollowupPrescriberVersion": null,
+        "specFollowupPrescriberLocationCode": "null",
+        "prohibitRenewalRequest": null,
+        "erxCode": "null",
+        "bridgeIndicator": null,
+        "assetKey": "null",
+        "cancelErxCode": "null",
+        "immunization": {
+          "immunizationRxSource": "null",
+          "offsiteVaccinationClinic": null,
+          "immunizationRequiredDoses": null
+        },
+        "externalReferencesData": {
+          "externalRxNumber": {
+            "value": "null",
+            "keyId": "null"
+          },
+          "externalLocationCode": "null",
+          "everDispensed": null,
+          "originalAssetKey": "null",
+          "originallyEnteredBy": "null",
+          "originallyEnteredDatetime": null,
+          "originallyEnteredLocationCode": "null",
+          "intakenBy": "null",
+          "intakenDatetime": null,
+          "intakenLocationCode": "null"
+        }
+      }
+    }
+  ],
+  "cepDecisionDetails": []
+}
